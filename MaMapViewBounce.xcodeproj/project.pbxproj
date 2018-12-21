@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030C58D621CC89770093755A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030C58D521CC89770093755A /* AppDelegate.m */; };
+		030C58D921CC89770093755A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030C58D821CC89770093755A /* ViewController.m */; };
+		030C58DC21CC89770093755A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030C58DA21CC89770093755A /* Main.storyboard */; };
+		030C58DE21CC89770093755A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030C58DD21CC89770093755A /* Assets.xcassets */; };
+		030C58E121CC89770093755A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030C58DF21CC89770093755A /* LaunchScreen.storyboard */; };
+		030C58E421CC89770093755A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 030C58E321CC89770093755A /* main.m */; };
+		030C58EE21CC89770093755A /* MaMapViewBounceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030C58ED21CC89770093755A /* MaMapViewBounceTests.m */; };
+		030C58F921CC89770093755A /* MaMapViewBounceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 030C58F821CC89770093755A /* MaMapViewBounceUITests.m */; };
+		030C590821CC89E20093755A /* WSMAMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 030C590621CC89E10093755A /* WSMAMapView.m */; };
+		030C590A21CC8D2E0093755A /* 青川县.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 030C590921CC8D2E0093755A /* 青川县.jpg */; };
+		29915BE9A870555E5B0B07C1 /* libPods-MaMapViewBounce.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A896C1D83EE442C1DA4967 /* libPods-MaMapViewBounce.a */; };
+		40B53A925CAEECFE5B13D81B /* libPods-MaMapViewBounceUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3869238F9A2D86063F22F1 /* libPods-MaMapViewBounceUITests.a */; };
+		4F79A22299536152D343AC0A /* libPods-MaMapViewBounceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7593B5B311D667E8FB463E01 /* libPods-MaMapViewBounceTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030C58EA21CC89770093755A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030C58C921CC89770093755A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030C58D021CC89770093755A;
+			remoteInfo = MaMapViewBounce;
+		};
+		030C58F521CC89770093755A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030C58C921CC89770093755A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030C58D021CC89770093755A;
+			remoteInfo = MaMapViewBounce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030C58D121CC89770093755A /* MaMapViewBounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaMapViewBounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030C58D421CC89770093755A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		030C58D521CC89770093755A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		030C58D721CC89770093755A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		030C58D821CC89770093755A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		030C58DB21CC89770093755A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		030C58DD21CC89770093755A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030C58E021CC89770093755A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		030C58E221CC89770093755A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030C58E321CC89770093755A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		030C58E921CC89770093755A /* MaMapViewBounceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaMapViewBounceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030C58ED21CC89770093755A /* MaMapViewBounceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaMapViewBounceTests.m; sourceTree = "<group>"; };
+		030C58EF21CC89770093755A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030C58F421CC89770093755A /* MaMapViewBounceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaMapViewBounceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030C58F821CC89770093755A /* MaMapViewBounceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaMapViewBounceUITests.m; sourceTree = "<group>"; };
+		030C58FA21CC89770093755A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030C590621CC89E10093755A /* WSMAMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMAMapView.m; sourceTree = "<group>"; };
+		030C590721CC89E10093755A /* WSMAMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMAMapView.h; sourceTree = "<group>"; };
+		030C590921CC8D2E0093755A /* 青川县.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "青川县.jpg"; sourceTree = "<group>"; };
+		27CF25CF1523B03478894C71 /* Pods-MaMapViewBounceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaMapViewBounceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaMapViewBounceTests/Pods-MaMapViewBounceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F3869238F9A2D86063F22F1 /* libPods-MaMapViewBounceUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaMapViewBounceUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABCA8FDC40F7846F0D40FEE /* Pods-MaMapViewBounceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaMapViewBounceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaMapViewBounceUITests/Pods-MaMapViewBounceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7593B5B311D667E8FB463E01 /* libPods-MaMapViewBounceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaMapViewBounceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD8E1A309F29BABCAE6A68B /* Pods-MaMapViewBounce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaMapViewBounce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaMapViewBounce/Pods-MaMapViewBounce.debug.xcconfig"; sourceTree = "<group>"; };
+		90F4929C81787535C9C512FE /* Pods-MaMapViewBounceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaMapViewBounceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaMapViewBounceUITests/Pods-MaMapViewBounceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5A896C1D83EE442C1DA4967 /* libPods-MaMapViewBounce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaMapViewBounce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7FE425D1442485EEE63311F /* Pods-MaMapViewBounceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaMapViewBounceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaMapViewBounceTests/Pods-MaMapViewBounceTests.release.xcconfig"; sourceTree = "<group>"; };
+		F081979EB0D9B125F2772C59 /* Pods-MaMapViewBounce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaMapViewBounce.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaMapViewBounce/Pods-MaMapViewBounce.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030C58CE21CC89770093755A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29915BE9A870555E5B0B07C1 /* libPods-MaMapViewBounce.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030C58E621CC89770093755A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F79A22299536152D343AC0A /* libPods-MaMapViewBounceTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030C58F121CC89770093755A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B53A925CAEECFE5B13D81B /* libPods-MaMapViewBounceUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030C58C821CC89770093755A = {
+			isa = PBXGroup;
+			children = (
+				030C58D321CC89770093755A /* MaMapViewBounce */,
+				030C58EC21CC89770093755A /* MaMapViewBounceTests */,
+				030C58F721CC89770093755A /* MaMapViewBounceUITests */,
+				030C58D221CC89770093755A /* Products */,
+				9851738954576E100396481B /* Pods */,
+				A58DF72C4A135A802A0DFC4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		030C58D221CC89770093755A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030C58D121CC89770093755A /* MaMapViewBounce.app */,
+				030C58E921CC89770093755A /* MaMapViewBounceTests.xctest */,
+				030C58F421CC89770093755A /* MaMapViewBounceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030C58D321CC89770093755A /* MaMapViewBounce */ = {
+			isa = PBXGroup;
+			children = (
+				030C58D421CC89770093755A /* AppDelegate.h */,
+				030C58D521CC89770093755A /* AppDelegate.m */,
+				030C58D721CC89770093755A /* ViewController.h */,
+				030C58D821CC89770093755A /* ViewController.m */,
+				030C58DA21CC89770093755A /* Main.storyboard */,
+				030C590921CC8D2E0093755A /* 青川县.jpg */,
+				030C590721CC89E10093755A /* WSMAMapView.h */,
+				030C590621CC89E10093755A /* WSMAMapView.m */,
+				030C58DD21CC89770093755A /* Assets.xcassets */,
+				030C58DF21CC89770093755A /* LaunchScreen.storyboard */,
+				030C58E221CC89770093755A /* Info.plist */,
+				030C58E321CC89770093755A /* main.m */,
+			);
+			path = MaMapViewBounce;
+			sourceTree = "<group>";
+		};
+		030C58EC21CC89770093755A /* MaMapViewBounceTests */ = {
+			isa = PBXGroup;
+			children = (
+				030C58ED21CC89770093755A /* MaMapViewBounceTests.m */,
+				030C58EF21CC89770093755A /* Info.plist */,
+			);
+			path = MaMapViewBounceTests;
+			sourceTree = "<group>";
+		};
+		030C58F721CC89770093755A /* MaMapViewBounceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				030C58F821CC89770093755A /* MaMapViewBounceUITests.m */,
+				030C58FA21CC89770093755A /* Info.plist */,
+			);
+			path = MaMapViewBounceUITests;
+			sourceTree = "<group>";
+		};
+		9851738954576E100396481B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DD8E1A309F29BABCAE6A68B /* Pods-MaMapViewBounce.debug.xcconfig */,
+				F081979EB0D9B125F2772C59 /* Pods-MaMapViewBounce.release.xcconfig */,
+				27CF25CF1523B03478894C71 /* Pods-MaMapViewBounceTests.debug.xcconfig */,
+				E7FE425D1442485EEE63311F /* Pods-MaMapViewBounceTests.release.xcconfig */,
+				90F4929C81787535C9C512FE /* Pods-MaMapViewBounceUITests.debug.xcconfig */,
+				6ABCA8FDC40F7846F0D40FEE /* Pods-MaMapViewBounceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A58DF72C4A135A802A0DFC4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A896C1D83EE442C1DA4967 /* libPods-MaMapViewBounce.a */,
+				7593B5B311D667E8FB463E01 /* libPods-MaMapViewBounceTests.a */,
+				2F3869238F9A2D86063F22F1 /* libPods-MaMapViewBounceUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030C58D021CC89770093755A /* MaMapViewBounce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030C58FD21CC89770093755A /* Build configuration list for PBXNativeTarget "MaMapViewBounce" */;
+			buildPhases = (
+				B6D8DDAB5DB759209047771B /* [CP] Check Pods Manifest.lock */,
+				030C58CD21CC89770093755A /* Sources */,
+				030C58CE21CC89770093755A /* Frameworks */,
+				030C58CF21CC89770093755A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaMapViewBounce;
+			productName = MaMapViewBounce;
+			productReference = 030C58D121CC89770093755A /* MaMapViewBounce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		030C58E821CC89770093755A /* MaMapViewBounceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030C590021CC89770093755A /* Build configuration list for PBXNativeTarget "MaMapViewBounceTests" */;
+			buildPhases = (
+				FF5035CD31006486B7B521F4 /* [CP] Check Pods Manifest.lock */,
+				030C58E521CC89770093755A /* Sources */,
+				030C58E621CC89770093755A /* Frameworks */,
+				030C58E721CC89770093755A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030C58EB21CC89770093755A /* PBXTargetDependency */,
+			);
+			name = MaMapViewBounceTests;
+			productName = MaMapViewBounceTests;
+			productReference = 030C58E921CC89770093755A /* MaMapViewBounceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		030C58F321CC89770093755A /* MaMapViewBounceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030C590321CC89770093755A /* Build configuration list for PBXNativeTarget "MaMapViewBounceUITests" */;
+			buildPhases = (
+				790B2D10FFD05E94EC171B51 /* [CP] Check Pods Manifest.lock */,
+				030C58F021CC89770093755A /* Sources */,
+				030C58F121CC89770093755A /* Frameworks */,
+				030C58F221CC89770093755A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030C58F621CC89770093755A /* PBXTargetDependency */,
+			);
+			name = MaMapViewBounceUITests;
+			productName = MaMapViewBounceUITests;
+			productReference = 030C58F421CC89770093755A /* MaMapViewBounceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030C58C921CC89770093755A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "王帅";
+				TargetAttributes = {
+					030C58D021CC89770093755A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					030C58E821CC89770093755A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 030C58D021CC89770093755A;
+					};
+					030C58F321CC89770093755A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 030C58D021CC89770093755A;
+					};
+				};
+			};
+			buildConfigurationList = 030C58CC21CC89770093755A /* Build configuration list for PBXProject "MaMapViewBounce" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030C58C821CC89770093755A;
+			productRefGroup = 030C58D221CC89770093755A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030C58D021CC89770093755A /* MaMapViewBounce */,
+				030C58E821CC89770093755A /* MaMapViewBounceTests */,
+				030C58F321CC89770093755A /* MaMapViewBounceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030C58CF21CC89770093755A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030C590A21CC8D2E0093755A /* 青川县.jpg in Resources */,
+				030C58E121CC89770093755A /* LaunchScreen.storyboard in Resources */,
+				030C58DE21CC89770093755A /* Assets.xcassets in Resources */,
+				030C58DC21CC89770093755A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030C58E721CC89770093755A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030C58F221CC89770093755A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		790B2D10FFD05E94EC171B51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaMapViewBounceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6D8DDAB5DB759209047771B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaMapViewBounce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5035CD31006486B7B521F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaMapViewBounceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030C58CD21CC89770093755A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030C58D921CC89770093755A /* ViewController.m in Sources */,
+				030C590821CC89E20093755A /* WSMAMapView.m in Sources */,
+				030C58E421CC89770093755A /* main.m in Sources */,
+				030C58D621CC89770093755A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030C58E521CC89770093755A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030C58EE21CC89770093755A /* MaMapViewBounceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030C58F021CC89770093755A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030C58F921CC89770093755A /* MaMapViewBounceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030C58EB21CC89770093755A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030C58D021CC89770093755A /* MaMapViewBounce */;
+			targetProxy = 030C58EA21CC89770093755A /* PBXContainerItemProxy */;
+		};
+		030C58F621CC89770093755A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030C58D021CC89770093755A /* MaMapViewBounce */;
+			targetProxy = 030C58F521CC89770093755A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		030C58DA21CC89770093755A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030C58DB21CC89770093755A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		030C58DF21CC89770093755A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030C58E021CC89770093755A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030C58FB21CC89770093755A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		030C58FC21CC89770093755A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030C58FE21CC89770093755A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DD8E1A309F29BABCAE6A68B /* Pods-MaMapViewBounce.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64D59SUMFM;
+				INFOPLIST_FILE = MaMapViewBounce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaMapViewBounce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		030C58FF21CC89770093755A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F081979EB0D9B125F2772C59 /* Pods-MaMapViewBounce.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 64D59SUMFM;
+				INFOPLIST_FILE = MaMapViewBounce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MaMapViewBounce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		030C590121CC89770093755A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27CF25CF1523B03478894C71 /* Pods-MaMapViewBounceTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaMapViewBounceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Albert.MaMapViewBounceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaMapViewBounce.app/MaMapViewBounce";
+			};
+			name = Debug;
+		};
+		030C590221CC89770093755A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FE425D1442485EEE63311F /* Pods-MaMapViewBounceTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaMapViewBounceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Albert.MaMapViewBounceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaMapViewBounce.app/MaMapViewBounce";
+			};
+			name = Release;
+		};
+		030C590421CC89770093755A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F4929C81787535C9C512FE /* Pods-MaMapViewBounceUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaMapViewBounceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Albert.MaMapViewBounceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaMapViewBounce;
+			};
+			name = Debug;
+		};
+		030C590521CC89770093755A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ABCA8FDC40F7846F0D40FEE /* Pods-MaMapViewBounceUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaMapViewBounceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Albert.MaMapViewBounceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaMapViewBounce;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030C58CC21CC89770093755A /* Build configuration list for PBXProject "MaMapViewBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030C58FB21CC89770093755A /* Debug */,
+				030C58FC21CC89770093755A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030C58FD21CC89770093755A /* Build configuration list for PBXNativeTarget "MaMapViewBounce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030C58FE21CC89770093755A /* Debug */,
+				030C58FF21CC89770093755A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030C590021CC89770093755A /* Build configuration list for PBXNativeTarget "MaMapViewBounceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030C590121CC89770093755A /* Debug */,
+				030C590221CC89770093755A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030C590321CC89770093755A /* Build configuration list for PBXNativeTarget "MaMapViewBounceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030C590421CC89770093755A /* Debug */,
+				030C590521CC89770093755A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030C58C921CC89770093755A /* Project object */;
+}

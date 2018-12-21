@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MaMapViewBounce' do
+#    pod 'AMap3DMap'
+#    pod 'AMapLocation' 
+  target 'MaMapViewBounceTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MaMapViewBounceUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
